@@ -111,15 +111,38 @@ textarea {
 
 button {
     background-color: #263b80;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
-    padding: 13px 25px;
+    padding: 19px 50px;
     border-radius: 6px;
     cursor: pointer;
 }
 
 button:hover {
     background-color: #1b2c62;
+}
+
+.tutor-card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    border-left: 5px solid #263b80;
+}
+
+.tutor-card h3 {
+    color: #263b80;
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.tutor-card p {
+    margin: 8px 0;
+}
+
+.tutor-card strong {
+    color: #333;
 }
 
 /* Footer */
